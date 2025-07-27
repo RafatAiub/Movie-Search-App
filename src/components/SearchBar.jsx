@@ -3,7 +3,7 @@ import { useState } from "react";
 import useMovieStore from "../store/useMovieStore";
 
 const SearchBar = () => {
-  const API_KEY = "e262dfea"; // this is the OMDB Key
+  const API_KEY = import.meta.env.VITE_OMDB_API_KEY; // this is the OMDB Key
   const [input, setInput] = useState("");
   const { setMovies, setLoading, setError, setSearchTerm } = useMovieStore(); // from zustand call this hook
 
