@@ -4,16 +4,15 @@ A simple and modern React application to search for movies using the [OMDb API](
 
 ## Features
 
-- 🔎 Search for movies by title
-- 🎬 View movie results with posters, titles, years, and types
-- 🧹 Clear search and results easily
-- ⚡ Fast, responsive UI with loading and error handling
+-  Search for movies by title
+-  View movie results with posters, titles, years, and types
+-  Clear search and results easily
+-  Fast, responsive UI with loading and error handling
 
 ## Demo
 
 **Live App:** [https://movie-search-app-eight-pink.vercel.app/](https://movie-search-app-eight-pink.vercel.app/)
 
-![Movie Search App Screenshot](public/vite.svg)
 
 ## Getting Started
 
