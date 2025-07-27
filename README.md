@@ -11,6 +11,8 @@ A simple and modern React application to search for movies using the [OMDb API](
 
 ## Demo
 
+**Live App:** [https://movie-search-app-eight-pink.vercel.app/](https://movie-search-app-eight-pink.vercel.app/)
+
 ![Movie Search App Screenshot](public/vite.svg)
 
 ## Getting Started
@@ -26,11 +28,21 @@ A simple and modern React application to search for movies using the [OMDb API](
    ```sh
    git clone https://github.com/RafatAiub/Movie-Search-App.git
    cd movie_search_app
-
-   -npm install
+   npm install
    # or
-   -yarn install
+   yarn install
+   ```
 
-    npm run dev — Start development server
-    npm run build — Build for production
-    
+2. **Create a `.env` file in the project root:**
+   ```
+   VITE_OMDB_API_KEY=e262dfea
+   ```
+
+3. **Start the development server:**
+   ```sh
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [http://localhost:5173](http://localhost:5173) in your browser.
