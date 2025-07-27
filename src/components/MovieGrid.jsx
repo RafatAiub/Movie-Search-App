@@ -17,7 +17,7 @@ const MovieGrid = () => {
     <div>
       {searchTerm && <h2>Results for: <em>{searchTerm}</em></h2>}
       <div className="movie-grid">
-        {movies.map((movie) => <MovieCard key={movie.imdbID} movie={movie} />)}  // Assuming each movie has a unique imdbID
+        {movies.map((movie) => <MovieCard key={movie.imdbID} movie={movie} />)}  
       </div>
     </div>
   );
