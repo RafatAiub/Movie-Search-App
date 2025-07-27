@@ -8,7 +8,7 @@ const SearchBar = () => {
   const { setMovies, setLoading, setError, setSearchTerm } = useMovieStore(); // from zustand call this hook
 
   const fetchMovies = async () => {
-    if (!input.trim()) return;
+    if (!input.trim()) return; // check if input is empty or just spaces
 
     setLoading(true);
     setError("");
@@ -16,7 +16,7 @@ const SearchBar = () => {
 
     try {
       const res = await fetch(
-        `https://www.omdbapi.com/?apikey=${API_KEY}&s=${input}`
+        `https://www.omdbapi.com/?apikey=${API_KEY}&s=${input}`  // fetch movies from OMDB API
       );
       const data = await res.json();
       if (data.Response === "True") {
